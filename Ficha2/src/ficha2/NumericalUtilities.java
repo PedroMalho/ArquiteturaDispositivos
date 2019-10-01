@@ -57,6 +57,7 @@ public class NumericalUtilities {
 
     public static boolean isPrime(int numero) {
         int res = 0;
+
         for (int i = 1; i <= numero; i++) {
             if (numero % i == 0) {
                 res += 1;
